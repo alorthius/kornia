@@ -40,6 +40,7 @@ from .yuv import (
     yuv422_to_rgb,
     yuv_to_rgb,
 )
+from .ictcp import RgbToICtCp, ICtCpToRgb, rgb_to_ictcp, ictcp_to_rgb
 
 __all__ = [
     "grayscale_to_rgb",
@@ -113,6 +114,10 @@ __all__ = [
     "ColorMap",
     "RGBColor",
     "apply_colormap",
+    "RgbToICtCp",
+    "ICtCpToRgb",
+    "rgb_to_ictcp",
+    "ictcp_to_rgb"
 ]
 
 sepia = sepia_from_rgb
